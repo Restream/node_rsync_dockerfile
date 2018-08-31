@@ -1,4 +1,4 @@
-FROM node:8.9.4
+FROM node:10
 RUN npm i -g yarn
 RUN apt-get update && \
     apt-get -y install rsync apt-utils && \
